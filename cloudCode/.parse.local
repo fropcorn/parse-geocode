@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "parse-geocode"
+    },
+    "parse-geocode": {
+      "applicationId": "g7KvRQkrlDPBAOSVNVMlUzdzkCmiRbY1wTALZ0o6"
+    }
+  }
+}
