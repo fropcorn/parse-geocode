@@ -5,7 +5,7 @@ Parse.Cloud.define('getLocationNameFromCoordinate', function(request, response) 
 		url: 'https://maps.googleapis.com/maps/api/geocode/json',
 		params: {
 			latlng: latlng,
-			key: 'AIzaSyDVCuND4-X9GSPEPf2_SiI5Yc0mUZ39B30'
+			key: '{APIKEY}'
 		}
 	}).then(function(httpResponse) {
 		var parsedResponse = httpResponse.data;
